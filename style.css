@@ -1,0 +1,209 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+    background:#fffaf2;
+    color:#222;
+}
+
+header h1{
+    text-align:center;
+}
+
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+    gap:22px;
+    margin:25px 0 35px;
+}
+
+.info-box{
+    padding:22px;
+    margin:0;
+    border-radius:16px;
+    border:3px solid transparent;
+    box-shadow:0 8px 18px rgba(0,0,0,.18);
+}
+
+.note{
+    background:#dff3ff;
+    border-color:#008bd2;
+}
+
+.order{
+    background:#fff0b8;
+    border-color:#ff9800;
+}
+
+.service{
+    background:#ddffd8;
+    border-color:#27a844;
+}
+
+.how{
+    background:#f1ddff;
+    border-color:#9c27b0;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    font-size:24px;
+    margin-bottom:12px;
+
+}
+
+.info-box ul {
+    margin: 10px 0 0;
+    padding-left: 20px;
+}
+
+.info-box li {
+    line-height: 1.8;
+}
+
+.top-logo {
+    width:100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top-logo img{
+    width: 155px;
+    height: 155px;
+    object-fit: contain;
+    border: 4px solid orange;
+    border-radius: 50%;
+    padding: 8px;
+    background: white;
+}
+
+.top-logo h1 {
+    margin: 10px 0;
+    font-size: 32px;
+    
+}
+
+.section-title{
+    text-align:center;
+    font-size:36px;
+    margin:35px 0 25px;
+    color:#7c2d12;
+}
+
+.food-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:24px;
+    margin-bottom:40px;
+}
+
+.food-card{
+    position:relative;
+    overflow:hidden;
+    border:1px solid #f0d7ba;
+    border-radius:18px;
+    padding:12px;
+    text-align:center;
+    background:#ffffff;
+    box-shadow:0 8px 20px rgba(124,45,18,.12);
+    transition:transform .2s ease, box-shadow .2s ease;
+}
+
+.food-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 14px 28px rgba(124,45,18,.20);
+}
+
+.food-card img{
+    width:100%;
+    height:190px;
+    object-fit:cover;
+    border-radius:14px;
+    display:block;
+}
+
+.food-card h3{
+    min-height:48px;
+    margin:18px 8px 8px;
+    color:#4a1f0b;
+    font-size:20px;
+    line-height:1.2;
+}
+
+.food-card p{
+    margin:0 8px 12px;
+    color:#6b5b4f;
+    font-size:15px;
+    line-height:1.5;
+}
+
+.number{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:42px;
+    height:42px;
+    background:red;
+    color:yellow;
+    border-radius:50%;
+    line-height:42px;
+    margin:0;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,.22);
+}
+
+.num{
+    width:50px;
+    height:50px;
+    background:green;
+    color:white;
+    border-radius:50%;
+    line-height:50px;
+    margin:10px auto;
+    font-weight:bold;
+
+}
+
+.whatsapp-box{
+    max-width:720px;
+    margin:45px auto 20px;
+    padding:32px;
+    text-align:center;
+    border-radius:20px;
+    background:#dcfce7;
+    border:3px solid #22c55e;
+    box-shadow:0 10px 25px rgba(34,197,94,.22);
+}
+
+.whatsapp-box h2{
+    margin:0 0 10px;
+    font-size:34px;
+    color:#14532d;
+}
+
+.whatsapp-box p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.phone-number{
+    font-size:24px !important;
+    font-weight:bold;
+    color:#166534;
+}
+
+.whatsapp-button{
+    display:inline-block;
+    margin-top:16px;
+    padding:16px 34px;
+    background:#16a34a;
+    color:white;
+    border-radius:999px;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    box-shadow:0 6px 14px rgba(22,163,74,.35);
+}
+
+.whatsapp-button:hover{
+    background:#15803d;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Dorvo Logo</title>
+  <desc id="desc">A warm food service logo with a serving cloche, leaf, and Dorvo initials.</desc>
+  <rect width="512" height="512" rx="96" fill="#fff7ed"/>
+  <circle cx="256" cy="256" r="188" fill="#ffedd5"/>
+  <circle cx="256" cy="164" r="26" fill="#f97316"/>
+  <path d="M126 306c10-76 65-132 130-132s120 56 130 132H126z" fill="#fb923c"/>
+  <path d="M104 330h304c14 0 26 12 26 26s-12 26-26 26H104c-14 0-26-12-26-26s12-26 26-26z" fill="#7c2d12"/>
+  <path d="M320 150c48-8 78-36 92-84 8 42-4 78-35 105-24 21-54 27-83 17 6-19 14-31 26-38z" fill="#16a34a"/>
+  <path d="M318 152c35-19 58-45 70-77" fill="none" stroke="#dcfce7" stroke-width="10" stroke-linecap="round"/>
+  <text x="256" y="284" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#fff7ed">D</text>
+  <text x="256" y="438" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#7c2d12">DORVO</text>
+</svg>
